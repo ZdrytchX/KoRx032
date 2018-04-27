@@ -1,0 +1,151 @@
+                                           
+       ,--.                                 
+   ,--/  /|         ,-.----.                
+,---,': / '         \    /  \               
+:   : '/ /   ,---.  ;   :    \              
+|   '   ,   '   ,'\ |   | .\ :  ,--,  ,--,  
+'   |  /   /   /   |.   : |: |  |'. \/ .`|  
+|   ;  ;  .   ; ,. :|   |  \ :  '  \/  / ;  
+:   '   \ '   | |: :|   : .  /   \  \.' /   
+|   |    ''   | .; :;   | |  \    \  ;  ;   
+'   : |.  \   :    ||   | ;\  \  / \  \  \  
+|   | '_\.'\   \  / :   ' | \.'./__;   ;  \ 
+'   : |     `----'  :   : :-'  |   :/\  \ ; 
+;   |,'             |   |.'    `---'  `--`  
+'---'               `---'                   
+                                            
+
+                                                      
+                            .--,-``-.                 
+              ,----..      /   /     '.         ,---, 
+             /   /   \    / ../        ;     ,`--.' | 
+            /   .     :   \ ``\  .`-    '   /    /  : 
+     .---. .   /   ;.  \   \___\/   \   :  :    |.' ' 
+   /.  ./|.   ;   /  ` ;        \   :   |  `----':  | 
+ .-' . ' |;   |  ; \ ; |        /  /   /      '   ' ; 
+/___/ \: ||   :  | ; | '        \  \   \      |   | | 
+.   \  ' ..   |  ' ' ' :    ___ /   :   |     '   : ; 
+ \   \   ''   ;  \; /  |   /   /\   /   :     |   | ' 
+  \   \    \   \  ',  /___/ ,,/  ',-    .___  '   : | 
+   \   \ |  ;   :    //  .\ ''\        ;/  .\ ;   |.' 
+    '---"    \   \ .' \  ; \   \     .' \  ; |'---'   
+------------------------------------------------------------------------
+It is recommended that you disable wordwrap for this changelog to 
+view this changelog properly.
+This is the changelog for KoRx v0.3.1, released on 3-27-10 @ 12:00 CST
+as an update to KoRx v0.3.
+------------------------------------------------------------------------
+
+Bug from v0.3, where ESD/VESD causes crashes fixed (r56/r57) 
+  (aaron/camper)
+!Building bugfix (r58) (camper)
+!Restart / !Map color bleeding fix (r59) (camper)
+!Detonate CP message bugfix (r60) (camper)
+Dead players are no longer moved to spectators upon death during ESD in 
+  tkmap (r61) (camper)
+Aliens now retain their velocity when evolving (r62) (camper)
+Nullbyte skipping in callvote removed (r63) (camper)
+Fixed color bleeding in "admin immune" message sent to fake vote targets
+  (r63) (camper)
+!pause should no longer cause crashes, bug from v0.3 (r64) (camper)
+Credits are awarded for kills again in tkmap (r65) (camper)
+CMD_LIVING option for server commands (r66/r67) (camper)
+You must be dead to use follow now (r68) (camper)
+Attempt at fixing (DEAD) not showing up when dead buildables are 
+  deconned (r69/r85) (aaron)
+Poll reasons are now escaped (r70) (camper)
+Disconnect messages now contain the sanatized name (r71) (camper)
+Say_admins was readded (r72) (aaron (patch by ikusari))
+Ogg suffix now allowed for target_speaker (r74) (camper)
+!Credits now allows float values (r77) (camper)
+During intermission the next map will now be loaded based upon a new 
+  formula: 30 seconds * notready / (ready + notready) (r78) (camper)
+Spanish, French, German, and Polish help menu messages for why you can't
+  build without a GUID added (r79) (aaron)
+Gurp spam fix (r81) (aaron (fix by metal))
+Donation/share/credit system fix; overhaul (r83) (aaron)
+People without GUIDs are now given a long message in many languages
+  explaining why they can't build. The ability to build without guids
+  can be toggled by g_noguidnobuild (defaults to on) (r84/r85) (aaron)
+Increased !building range (r86) (camper)
+DistributeCredits and creditsToString functions added (r87) (camper)
+Overall balance changes: (r88) (aaron)
+  * larmour price decrease (50->40)
+  * Cloak time decrease (heading towards boost time) (40s->35s)
+  * Jetpack explosion chance increase (1/1000->1/750)
+  * Jetpack charge without RC decrease (1 unit->0.5 units)
+  * Jetpack charge with RC increase (2 unit->2.5 units)
+  * Alien default S2 threshold decrease (8000c->7000c)
+  * Alien default S3 threshold decrease (16000c->14000c)
+  * Human threshold player modifier decrease (6p->5p)
+  * Shotgun and Rifle recoil
+Aliens and humans now have different player modifiers to determine how
+  high their credits for the next stage will be. Humans still suck no
+  matter how many there are (r88) (aaron)
+ADMF_UNACCOUNTABLE is no longer required to !warn without reason (r89)
+  (aaron)
+Another addition to the weird crash bugs caused by explosions pushing
+  buttons (r90) (aaron)
+Enhanced barricade texture added (r92) (Eagle)
+Human texture with eyes added (r93) (Eagle)
+Switch can no longer be used on people who are a higher level than you
+  (r94) (aaron)
+Lisk gas now spreads poison again (r95/r96) (aaron)
+Humans now get 10 seconds of poison immunity after using a medkit, again
+  (r97) (aaron)
+Help menu update for the new version, GAME_VERSION change, and changelog 
+  added (r98) (aaron)
+More emoticons (r99) (aaron)
+!listadmins for negative levels and overall syntax change (r100) 
+  (camper)
+Final help menu updates (r101) (aaron)
+Increased buffer size (r102) (camper)
+Credits bugfix (r105) (aaron)
+Deaths bugfix (r106) (aaron)
+Credit system overhall, removed the dual credit systems (r109) (camper)
+Missing credits with !putteam (r114) (camper)
+Fixed some emoticion drawing and cutting (r114) (camper)
+Top secret stuff (r114-r145)
+Attempted segfault fix in Windows (r145) (camper)
+Spitfire update:
+  * Corrected spitfire skin added (r147) (Fox One) 
+  * Spitfire taunt fix (r150) (aaron)
+  * You can evolve into the spitfire now (r151) (aaron)  
+  * Spitfire balance changes: (r151) (aaron)
+    * Health 65->50
+    * Value 250->350
+    * Cost 1evo->2evos
+  * Added the framework for the adv. spitfire (r151) (aaron)
+  * Spitfire is now below the adv. lisk on the menu (r152) (aaron)
+  * Fixed wing transparancy (r153) (camper)
+Reverted ESD twitch 'fix', didn't work (r159) (aaron)
+Another help menu update (r160) (aaron)
+Blocked Ñ from being printed (r161) (aaron)
+G_ReadableCredits addition, removes a lot of code redundancy in credit-
+  related functions. (r162) (aaron)
+G_ReadableCredits crash bug fix (r168) (aaron)
+Doubled a few UI limits, fixed windows crashes (camper) (r170)
+Fix for negative hp killer message (r171) (camper)
+!Warn print fix (r172) (camper)
+ReadableCredits function bugfix and cleanup (r173/r175) (aaron)
+!building grammar fix (r174) (camper)
+--- KoRx Dev Test Game @ 3/20/10 ---
+Balance Changes: (r176) (aaron)
+ * Spitfire bomb damage increase (40->50)
+ * Alien s2/s3 frags per player needed increased (3.5->4.4/6.4->8)
+Poison is no longer spread through spitfire zap (r177) (aaron)
+Changelog and help menu updates (r178/r179) (aaron)
+--- KoRx v0.3.1 Test Game @ 3/21/10 ---
+Overflow bugfix (r180) (camper)
+Cleaned up G_AddCreditToClient and removed some useless definitions (r182) (camper)
+Removed 50 character limit for CP (r183) (camper)
+G_Damage clean up (duplicate code) (r184) (camper)
+Vampire map zone work (r185-r188) (camper)
+Death messages for !kill and !slap moved to the client (r189) (camper)
+Balance tweaks: (r190) (aaron)
+ * Spitfire bomb damage decrease (50->35)
+ * Spitfire building damage modifier increase (50%->60%)
+ * Jetpack explosion chance decrease (1/750->1/900)
+Help menu and changelog update (r191) (aaron)
+--- KoRx Dev Test Game @ 3/27/10 ---
+--- Release @ 3/27/10 ---

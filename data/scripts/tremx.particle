@@ -1,0 +1,324 @@
+models/weapons/eblob/missilePS
+{
+  ejector
+  {
+    particle
+    {
+      shader sync gfx/sprites/green_acid
+
+      displacement 0 0 0 ~3.0
+
+      parentVelocityFraction  1.0
+      velocityType      static
+      velocityDir       linear
+      velocityMagnitude 120
+      velocity          0 0 1 ~360
+
+      radius 0 1.0 5.0
+      alpha  0 1.0 0.0
+      bounce 0.1
+
+      lifeTime 1000
+    }
+
+    count infinite
+    delay 0
+    period 50 - ~0%
+  }
+}
+
+models/weapons/eblob/impactPS
+{
+  ejector
+  {
+    particle
+    {
+      shader sync gfx/sprites/green_acid
+
+      displacement 0 0 0 ~2.0
+
+      normalDisplacement 10.0
+
+      velocityType      normal
+      velocityDir       linear
+      velocityMagnitude 200
+      velocity          0 0 0 ~160
+
+      accelerationType      static
+      accelerationDir       linear
+      accelerationMagnitude 300
+      acceleration          0 0 -1 0
+
+      radius 0 1.0 5.0
+      alpha  0 1.0 0.0
+      rotation 0 ~360 -
+      bounce 0.8
+
+      lifeTime 2000~1000
+    }
+
+    count 30
+    delay 0
+    period 0 - ~0%
+  }
+
+  ejector
+  {
+    particle
+    {
+      shader sync gfx/sprites/green_acid
+
+      displacement 0 0 0 ~10.0
+
+      normalDisplacement 15.0
+
+      velocityType      normal
+      velocityDir       linear
+      velocityMagnitude 100
+      velocity          0 0 0 ~160
+
+      accelerationType      static
+      accelerationDir       linear
+      accelerationMagnitude 150
+      acceleration          0 0 -1 0
+
+      radius 0 25.0 0.0
+      alpha  0 1.0 0.0
+      rotation 0 ~360 -
+      bounce 1.0
+
+      lifeTime 1000~1000
+    }
+
+    count 6
+    delay 0
+    period 0 - ~0%
+  }
+}
+
+models/weapons/xael/missilePS
+{
+  ejector
+  {
+    particle
+    {
+      shader sync gfx/xael/primary
+
+      displacement 0 0 0 ~3.0
+
+      parentVelocityFraction  1.0
+      velocityType      static
+      velocityDir       linear
+      velocityMagnitude 120
+      velocity          0 0 1 ~360
+
+      radius 0 1.0 5.0
+      alpha  0 1.0 0.0
+      bounce 0.1
+
+      lifeTime 1000
+    }
+
+    count infinite
+    delay 0
+    period 50 - ~0%
+  }
+}
+
+models/weapons/xael/impactPS
+{
+  ejector
+  {
+    particle
+    {
+      shader sync gfx/xael/primary
+
+      displacement 0 0 0 ~2.0
+
+      normalDisplacement 10.0
+
+      velocityType      normal
+      velocityDir       linear
+      velocityMagnitude 200
+      velocity          0 0 0 ~160
+
+      accelerationType      static
+      accelerationDir       linear
+      accelerationMagnitude 300
+      acceleration          0 0 -1 0
+
+      radius 0 1.0 5.0
+      alpha  0 1.0 0.0
+      rotation 0 ~360 -
+      bounce 0.8
+
+      lifeTime 2000~1000
+    }
+
+    count 15
+    delay 0
+    period 0 - ~0%
+  }
+
+  ejector
+  {
+    particle
+    {
+      shader sync gfx/xael/primary
+
+      displacement 0 0 0 ~10.0
+
+      normalDisplacement 15.0
+
+      velocityType      normal
+      velocityDir       linear
+      velocityMagnitude 100
+      velocity          0 0 0 ~160
+
+      accelerationType      static
+      accelerationDir       linear
+      accelerationMagnitude 150
+      acceleration          0 0 -1 0
+
+      radius 0 25.0 0.0
+      alpha  0 1.0 0.0
+      rotation 0 ~360 -
+      bounce 1.0
+
+      lifeTime 1000~1000
+    }
+
+    count 4
+    delay 0
+    period 0 - ~0%
+  }
+}
+
+models/weapons/xael/secondaryImpactPS
+{
+  ejector
+  {
+    particle
+    {
+      shader sync gfx/xael/primary
+
+      displacement 0 0 0 ~2.0
+
+      normalDisplacement 10.0
+
+      velocityType      normal
+      velocityDir       linear
+      velocityMagnitude 150
+      velocity          0 0 0 ~160
+
+      accelerationType      static
+      accelerationDir       linear
+      accelerationMagnitude 300
+      acceleration          0 0 -1 0
+
+      radius 0 1.0 5.0
+      alpha  0 1.0 0.0
+      rotation 0 ~360 -
+      bounce 0.8
+
+      lifeTime 2000~1000
+    }
+
+    count 4
+    delay 100
+    period 0 - ~0%
+  }
+}
+
+
+humanExplosionPS
+{
+  ejector
+  {
+    particle
+    {
+      shader sync gfx/sprites/blood
+      
+      displacement 0 0 0 ~70
+      normalDisplacement  80
+
+      velocityType      static
+      velocityDir       linear
+      velocityMagnitude 30
+      velocity          0 0 -1 ~0
+
+      radius 0 20.0 15.0
+      alpha  0 1.0 0.0
+      rotation 0 ~360 -
+      bounce 0.0
+
+      lifeTime 1000~50%
+    }
+
+    count 16
+    delay 0
+    period 0 - ~0%
+  }
+
+  ejector
+  {
+    particle
+    {
+      shader sync gfx/sprites/blood
+
+      displacement 0 0 40 ~0
+
+      velocityType      static
+      velocityDir       linear
+      velocityMagnitude 300~75%
+      velocity          0 0 1 ~60
+
+      accelerationType      static
+      accelerationDir       linear
+      accelerationMagnitude 800
+      acceleration          0 0 -1 0
+
+      radius 0 20.0 30.0
+      alpha  0 1.0 0.0
+      rotation 0 ~360 -
+      bounce 0.2
+
+      lifeTime 1000
+    }
+
+    count 10
+    delay 0
+    period 10 - ~0%
+  }
+
+  ejector
+  {
+    particle
+    {
+      model models/fx/human_gibs/h_gib1.md3 models/fx/human_gibs/h_gib2.md3 models/fx/human_gibs/h_gib3.md3 models/fx/human_gibs/h_gib4.md3
+
+      displacement 0 0 40 ~0
+
+      velocityType      normal
+      velocityDir       linear
+      velocityMagnitude 500~100%
+      velocity          0 0 15 ~60
+
+      accelerationType      static
+      accelerationDir       linear
+      accelerationMagnitude 800
+      acceleration          0 0 -1 0
+
+      radius          0 2.0 -
+      bounce          0.35
+      bounceMark      5~1 32 blood_puddle
+      bounceSound     ~1 sound/misc/organic_bounce.wav
+
+      lifeTime 5000~1000
+    }
+
+    count 8
+    delay 0
+    period 10 - ~0%
+  }
+}

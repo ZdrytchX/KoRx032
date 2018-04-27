@@ -1,0 +1,20 @@
+diff --git a/tools/quake3/q3map2/game_tremulous.h b/tools/quake3/q3map2/game_tremulous.h
+index 5d42262..6344e70 100644
+--- a/tools/quake3/q3map2/game_tremulous.h
++++ b/tools/quake3/q3map2/game_tremulous.h
+@@ -43,6 +43,7 @@ content and surface flags - also uses defines from game_quake3.h
+ #define TREM_CONT_NOALIENBUILD         0x1000
+ #define TREM_CONT_NOHUMANBUILD         0x2000
+ #define TREM_CONT_NOBUILD              0x4000
++#define KORX_CONT_VAMPIREZONE          0x400
+
+ #define TREM_SURF_NOALIENBUILDSURFACE  0x80000
+ #define TREM_SURF_NOHUMANBUILDSURFACE  0x100000
+@@ -158,6 +159,7 @@ game_t struct
+                {"noalienbuild",                        TREM_CONT_NOALIENBUILD,0,0,0,0,0},
+                {"nohumanbuild",                        TREM_CONT_NOHUMANBUILD,0,0,0,0,0},
+                {"nobuild",                                     TREM_CONT_NOBUILD,0,0,0,0,0},
++               {"vampirezone",                         KORX_CONT_VAMPIREZONE,0,0,0,0,0},
+
+                {"noalienbuildsurface", 0,0,TREM_SURF_NOALIENBUILDSURFACE,0,0,0},
+                {"nohumanbuildsurface", 0,0,TREM_SURF_NOHUMANBUILDSURFACE,0,0,0},

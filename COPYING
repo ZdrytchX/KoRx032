@@ -1,0 +1,76 @@
+---------------------------------------------------------- Tremulous License ---
+
+Tremulous is licensed in two broadly separate sections: the code and the media. 
+
+The code is licensed under the GNU GENERAL PUBLIC LICENSE. This license is
+contained in full in the file named GPL. Please be aware of the exceptions to
+this license as listed below.
+
+The media is licensed under the CREATIVE COMMONS ATTRIBUTION-SHAREALIKE 2.5
+LICENSE. Please read http://creativecommons.org/licenses/by-sa/2.5/ to learn
+more about this license. The full license text is contained in the file named
+CC.
+
+----------------------------------------------------------- KoRx License ---
+
+The media created for KoRx is liscensed under the CREATIVE COMMONS 
+ATTRIBUTION-SHAREALIKE 2.5 LICENSE.
+
+----------------------------------------------------------- KoR Emoticons ---
+
+This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 
+3.0 United States License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/us/ 
+or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+ 
+Edit and redistribute at your discretion. Credit must be given to the original creator.
+
+Michael Grudziecki
+mcgrudzi@gmail.com
+
+--------------------------------------------------- Flag Emoticons ---
+
+Flag icons - http://www.famfamfam.com
+
+These icons are public domain, and as such are free for any use (attribution appreciated but not required).
+
+Note that these flags are named using the ISO3166-1 alpha-2 country codes where appropriate. A list of codes can be found at http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+
+If you find these icons useful, please donate via paypal to mjames@gmail.com (or click the donate button available at http://www.famfamfam.com/lab/icons/silk)
+
+Contact: mjames@gmail.com
+
+--------------------------------------------------- OS Emoticons ---
+Most OS emoticons fall under this license:
+
+QEmu OS Icons, version 0.1
+
+Creator of this package: Marc Reichelt, http://marcreichelt.de/
+License:                 LGPL (GNU Lesser General Public License, http://www.gnu.org/copyleft/lesser.html)
+
+
+Copyright and Trademark information:
+Some logos are copyrighted and/or are registered trademarks of certain companys or groups.
+The icons may be used in neutral context, e.g. as desktop icons for an emulator like QEmu.
+
+All other OS icons are copyrighted their individual owners.
+
+--------------------------------------------------- Standard Emoticons ---
+
+Standard emoticons are all from Pidgin, another GPL project. We do not own these icons.
+
+--------------------------------------------------- All Other Emoticons ---
+
+All other emoticons are owned by their individual owners. Those that have not been given 
+to us are under the 'fair use' section of the DMCA.
+
+--------------------------------------------------- Code License Exceptions ---
+
+The following files contain sections of code that are not licensed under the
+GPL, but are nevertheless GPL compatible. The license text for these licenses
+is contained within the files as listed.
+
+    src/qcommon/unzip.c                                         zlib license
+    src/game/bg_lib.c                                            BSD license
+    src/client/snd_adpcm.c            Stichting Mathematisch Centrum license
+    src/jpeg-6/*                                                JPEG license
+    src/ogg_vorbis/*                                             OGG license

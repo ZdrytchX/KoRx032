@@ -1,0 +1,147 @@
+                                            
+       ,--.                                 
+   ,--/  /|         ,-.----.                
+,---,': / '         \    /  \               
+:   : '/ /   ,---.  ;   :    \              
+|   '   ,   '   ,'\ |   | .\ :  ,--,  ,--,  
+'   |  /   /   /   |.   : |: |  |'. \/ .`|  
+|   ;  ;  .   ; ,. :|   |  \ :  '  \/  / ;  
+:   '   \ '   | |: :|   : .  /   \  \.' /   
+|   |    ''   | .; :;   | |  \    \  ;  ;   
+'   : |.  \   :    ||   | ;\  \  / \  \  \  
+|   | '_\.'\   \  / :   ' | \.'./__;   ;  \ 
+'   : |     `----'  :   : :-'  |   :/\  \ ; 
+;   |,'             |   |.'    `---'  `--`  
+'---'               `---'                   
+                                            
+
+                                                   
+                  .--,-``-.                        
+    ,----..      /   /     '.             ,----,   
+   /   /   \    / ../        ;          .'   .' \  
+  /   .     :   \ ``\  .`-    '       ,----,'    | 
+ .   /   ;.  \   \___\/   \   :       |    :  .  ; 
+.   ;   /  ` ;        \   :   |       ;    |.'  /  
+;   |  ; \ ; |        /  /   /        `----'/  ;   
+|   :  | ; | '        \  \   \          /  ;  /    
+.   |  ' ' ' :    ___ /   :   |        ;  /  /-,   
+'   ;  \; /  |   /   /\   /   :       /  /  /.`|   
+ \   \  ',  /___/ ,,/  ',-    .___  ./__;      :   
+  ;   :    //  .\ ''\        ;/  .\ |   :    .'    
+   \   \ .' \  ; \   \     .' \  ; |;   | .'       
+    `---`    `--" `--`-,,-'    `--" `---'          
+
+------------------------------------------------------------------------
+This log is best viewed with wordwrap off.
+------------------------------------------------------------------------
+
+KoRx v0.3.2 is intended to be a balancing and bug fixing update.
+
+========================================================================
+
+Admin string feature added, all admins names are, by default, prefixed
+  by ^1~ (r326 | r334 | r335 | r345 | r348 | r349)
+Color bleeding fixed in cg_say and cg_team (r328)
+Space is now possible in vsay (r328)
+Vsay is now flood limited (r329)
+Trigger_heal is disabled in vesd (r330)
+Override bugfixes (r331)
+User is no longer rotated when teleporting (r332)
+Random map votes added by request (r333)
+BALANCE: Xael speed now equals luci speed (r337)
+CLEANUP: Removed unused recoil code (r338)
+Attemped logs update for tremstats (r340)
+BALANCE: Buildable cost fixes (r341)
+BALANCE: Alien player mod is now 6 (r344)
+BALANCE: Zap changes: (r346)
+  * Spitfire zap no longer drains jetpacks
+  * Zap now drains cloaks more slowly
+  * Zap now drains jetpacks more slowly
+Added emoticons (r347)
+CLEANUP: Removed reverted stuff that had no purpose (r350 | r351)
+Spitfires no longer 'bob' when flying (flying is smooth like jetpacking)
+  (r353)
+Retribution fix (r354)
+Xael no longer autofires (r356 | r357)
+Flamer and chaingun now both use GENERIC_RELOAD for their reload time
+  (r358)
+======
+KoRx 0.3.2 Test Game (7/9/10)
+======
+BALANCE: Advanced goon chomp & pounce now does 10 more points of damage
+  than regular chomp & pounce. (r360 | r361)
+=====
+Tournament on KoRx 0.3.2 (7/18/10)
+=====
+Reverted Wire's no hud patch (you can use huds with KoRx again)
+  http://korx.wikia.com/wiki/Running_a_Hud for more info (r362)
+Granger will no longer get pushed out of a map by another player 
+  blocking the exit (r363)
+Grangers can no longer get killed (or be stood on) when inside of a 
+  hovel (r364 | r365 | r366 | r367)
+BALANCE: Stage thresholds were mathed up: (r368)
+  * Alien S2 Threshold 6000c -> 9143c (22.8 frags)
+  * Alien S3 Threshold 12000c -> 18286c (45.7 frags)
+  * Alien frags (naked humans) required per player per stage 3.833...
+  * Human kills (dretches) required per player per stage 3.833... 
+    (no change)
+CLEANUP: Tremulous.h got a bunch of useless stuff removed (r369)
+BALANCE: Cloak time = boost time 25s->20s (r369)
+BALANCE: Jetpack explosion percentage 1/900->1/2000 (r369)
+Added Eagle's new dretch skin (r370)
+Added Eagle's new adv. dretch skin (r371)
+Medkit immunity now works (r372)
+Frags 'til next stage now has a decimal (r375)
+BALANCE: Battle granger upgrade: (r376)
+  * HP 100->150
+  * Spit damage 8->10
+  * Claw width 4->6
+  * Spit repeat rate 1000ms->750ms
+  * Value changes 300c->350c
+BALANCE: Shotgun grenades now have a delay between shots of 2 seconds
+  (up from 1) (r377)
+BALANCE: Basilisk claw damage reduced 32->28 (r378)
+The 'who won' string displayed on the score table is now reset (no more
+  Humans win three games in a row) (r379)
+Reload will protect structures again as an Alien (r380)
+CLIENT: Console spacebug fixed (Camper's) (r382)
+Version update (r383)
+CLIENT: Console overflow patch fix (r384)
+Tremfusion merge (reapplication of r291-294) (r385)
+CLIENT: Timestamps fix (r386)
+CLIENT: Seconds in timestamps (curses console) fix (r387)
+CLIENT: Added missing windows libs from tremfusion (r388)
+CLIENT: Partial compilation fix, extra file (r389)
+Sprintf fix (r390)
+Reverted tremfusion merge, it borked cross compiling (r392)
+Arm textures reapplied from xcfs, quality had degraded (r393)
+CLIENT: Toggling timestamps via com_timestamps enabled (r394 | r400 )
+Spectators should be able to see cloaked people (r395)
+CLIENT: Messagemode6 now uses say_clan (r396)
+CLIENT: You can modify your console via scr_concolors* (r401)
+CLIENT: Console now starts as a transparent orange (r402)
+======
+2nd KoRx 0.3.2 Test Game (7/25/10)
+======
+CLIENT: Added missing files (windows libs) (r404)
+Spectators can't see cloak now (it really messed up :P) (r405)
+BALANCE: Shotgun nade back to 1 second a shot (r406 | r408)
+AS2/AS3 threshold bugfix (r407)
+Advanced goon instant kill pounce fixed (r409|r410|r411)
+Extend vote crash fix (logging issues) (r412|r413)
+Help file updated for release (r414)
+Added various emoticons (r416)
+Random next map votes no longer work if there is a nextmap (r417)
+======
+KoRx 0.3.2 Release (7/29/10)
+======
+Fixed overflow issues with the overmind (reward 8000c->1600c) (r418)
+Overflow fix, a check was removed to keep people from overflowing to 
+  specs (r419)
+Crash bugfix with teleporters rotating people to NULL (r420)
+Removed CONTENTS_VAMPIREZONE check in damage. It caused all damage in
+  vesd to be halved (r421|r422)
+Xael was exploding quicker with a surge (r424)
+======
+Server QVM Update (7/30/10)
+======
